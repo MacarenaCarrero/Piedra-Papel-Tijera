@@ -21,4 +21,124 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #3B4262;
+  color: white;  
+}
+
+.containerSimple{
+  display: flex;
+  justify-content: center;
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
+
+.image-rules-simple{
+  width: 200px;
+  margin-bottom: 10px;
+}
+.containerAdvanced{
+  display: flex;
+  justify-content: center;
+}
+.image-rules-advanced{
+  width: 200px;
+  margin-bottom: 10px;
+}
+.category{
+  margin: 0;
+}
+.counterBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80px;
+  height: 72px;
+  background-color:#FFFFFF ;
+  border-radius: 4px;
+}
+.counter{
+  color:#3B4262 ;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+.score{
+  color:#3B4262 ;
+  font-weight: bold;
+  font-size: 10px;
+  margin: 0;
+  
+}
+.imageTitleSimple{
+  width: 83px;
+  height: 60px;
+}
+.header-mobile{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 23px;
+margin-top: 23px;
+margin-left: 32px;
+margin-bottom: 100px;
+  width: 311px;
+  height: 96px;
+  border: solid white 0.5px;  
+}
+.playIconos{
+  display: flex;
+  justify-content: center;
+  
+}
+.sizeIcono{
+  width: 38px;
+  height: 46px;
+}
+.triangle{
+  position: relative;
+  width: 166px;
+  
+}
+.paper{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 80px;
+  background-color: white; 
+top: 180px;
+left: 62px;
+border: solid #4664F4 10px;
+box-shadow: #2A45C2 0 5px , inset #97979750 0 4px;
+}
+.scissors{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 80px;
+  background-color: white; 
+top: 180px;
+right: 72px;
+border: solid #EB9F0E 10px;
+box-shadow: #C76C1B 0 5px , inset #97979750 0 4px; 
+}
+.rock{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 80px;
+  background-color: white; 
+top: 290px;
+left: 140px;
+border: solid #DB2E4D 10px;
+box-shadow: #9D1634 0 5px , inset #97979750 0 4px; 
 }
