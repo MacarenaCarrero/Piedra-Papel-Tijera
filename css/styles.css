@@ -25,6 +25,11 @@ body {
   color: white;  
 }
 
+.x{
+ margin-top: 10px;
+margin-left: 325px;
+width: 10px;
+}
 .containerSimple{
   display: flex;
   justify-content: center;
