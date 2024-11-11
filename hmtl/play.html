@@ -9,25 +9,28 @@
   <body>
     <main>
       <div class="header-mobile">
+        <div class="counterBox">
+          <p class="score">SCORE</p>
+          <p id="resultPc" class="counter">0</p>
+        </div>
         <img class="imageTitleSimple" src="../assets/images/logo.svg" alt="" />
         <div class="counterBox">
           <p class="score">SCORE</p>
-          <p class="counter">0</p>
+          <p id="resultUser" class="counter">0</p>
         </div>
       </div>
-      <div class="playIconos">
-        <img class="triangle" src="../assets/images/bg-triangle.svg" alt="" />
-        <div class="paper">
+      <div id="icons" class="playIconos">
+        <div data-icon="paper" class="paper">
           <img class="sizeIcono" src="../assets/images/icon-paper.svg" alt="" />
         </div>
-        <div class="scissors">
+        <div data-icon="scissors" class="scissors">
           <img
             class="sizeIcono"
             src="../assets/images/icon-scissors.svg"
             alt=""
           />
         </div>
-        <div class="rock">
+        <div data-icon="rock" class="rock">
           <img class="sizeIcono" src="../assets/images/icon-rock.svg" alt="" />
         </div>
       </div>

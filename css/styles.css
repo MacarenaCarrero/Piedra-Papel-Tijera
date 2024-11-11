@@ -21,91 +21,96 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #3B4262;
-  color: white;  
+  background-color: #3b4262;
+  color: white;
 }
 
-.x{
- margin-top: 10px;
-margin-left: 325px;
-width: 10px;
+.x {
+  margin-top: 10px;
+  margin-left: 325px;
+  width: 10px;
 }
-.containerSimple{
+.containerSimple {
   display: flex;
   justify-content: center;
- margin-bottom: 50px;
- margin-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-.image-rules-simple{
+.image-rules-simple {
   width: 200px;
   margin-bottom: 10px;
 }
-.containerAdvanced{
+.containerAdvanced {
   display: flex;
   justify-content: center;
 }
-.image-rules-advanced{
+.image-rules-advanced {
   width: 200px;
   margin-bottom: 10px;
 }
-.category{
+.category {
   margin: 0;
 }
-.counterBox{
+.counterBox {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 80px;
   height: 72px;
-  background-color:#FFFFFF ;
+  background-color: #ffffff;
   border-radius: 4px;
 }
-.counter{
-  color:#3B4262 ;
+.counter {
+  color: #3b4262;
   font-weight: bold;
   font-size: 32px;
   margin: 0;
 }
-.score{
-  color:#3B4262 ;
+.score {
+  color: #3b4262;
   font-weight: bold;
   font-size: 10px;
   margin: 0;
-  
 }
-.imageTitleSimple{
+.imageTitleSimple {
   width: 83px;
   height: 60px;
 }
-.header-mobile{
+.header-mobile {
   display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 23px;
-margin-top: 23px;
-margin-left: 32px;
-margin-bottom: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-top: 23px;
+  margin-left: 32px;
+  margin-bottom: 100px;
   width: 311px;
   height: 96px;
-  border: solid white 0.5px;  
+  border: solid white 0.5px;
 }
-.playIconos{
+.playIconos {
+  width: 312px;
+  height: 282px;
+  margin-inline: auto;
   display: flex;
   justify-content: center;
-  
+  background-image: url(../assets/images/bg-triangle.svg);
+  background-repeat: no-repeat;
+  background-size: 188px 166px;
+  background-position: top center;
 }
-.sizeIcono{
+.sizeIcono {
   width: 38px;
   height: 46px;
+  pointer-events: none;
 }
-.triangle{
+.triangle {
   position: relative;
   width: 166px;
-  
 }
-.paper{
+.paper {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -113,14 +118,14 @@ margin-bottom: 100px;
   width: 90px;
   height: 90px;
   border-radius: 80px;
-  background-color: white; 
-top: 180px;
-left: 62px;
-border: solid #4664F4 10px;
-box-shadow: #2A45C2 0 5px , inset #97979750 0 4px;
-cursor: pointer;
+  background-color: white;
+  top: 180px;
+  left: 62px;
+  border: solid #4664f4 10px;
+  box-shadow: #2a45c2 0 5px, inset #97979750 0 4px;
+  cursor: pointer;
 }
-.scissors{
+.scissors {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -128,14 +133,14 @@ cursor: pointer;
   width: 90px;
   height: 90px;
   border-radius: 80px;
-  background-color: white; 
-top: 180px;
-right: 72px;
-border: solid #EB9F0E 10px;
-box-shadow: #C76C1B 0 5px , inset #97979750 0 4px; 
-cursor: pointer;
+  background-color: white;
+  top: 180px;
+  right: 72px;
+  border: solid #eb9f0e 10px;
+  box-shadow: #c76c1b 0 5px, inset #97979750 0 4px;
+  cursor: pointer;
 }
-.rock{
+.rock {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -143,14 +148,14 @@ cursor: pointer;
   width: 90px;
   height: 90px;
   border-radius: 80px;
-  background-color: white; 
-top: 290px;
-left: 140px;
-border: solid #DB2E4D 10px;
-box-shadow: #9D1634 0 5px , inset #97979750 0 4px; 
-cursor: pointer;
+  background-color: white;
+  top: 290px;
+  left: 140px;
+  border: solid #db2e4d 10px;
+  box-shadow: #9d1634 0 5px, inset #97979750 0 4px;
+  cursor: pointer;
 }
-.modalRules{
+.modalRules {
   position: fixed;
   top: 0;
   left: 0;
@@ -160,14 +165,13 @@ cursor: pointer;
   scale: 0;
   transition: scale 0.3s;
 }
-.modalRules-show{
+.modalRules-show {
   scale: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.buttonRules{
+.buttonRules {
   position: absolute;
   bottom: 56px;
   left: 120px;
