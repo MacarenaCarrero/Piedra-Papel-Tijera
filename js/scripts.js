@@ -10,6 +10,21 @@ let pcChoice;
 let counterUser = 0;
 let counterPc = 0;
 
+const gameRules = {
+  paper: {
+    rock: true,
+    scissors: false,
+  },
+  rock: {
+    scissors: true,
+    paper: false,
+  },
+  scissors: {
+    paper: true,
+    rock: false,
+  },
+};
+
 const updateScore = () => {
   resultUserElement.textContent = counterUser;
   resultPcElement.textContent = counterPc;
@@ -17,20 +32,8 @@ const updateScore = () => {
 
 const checkWinner = () => {
   if (userChoice === pcChoice) {
-  }
-
-  if (
-    (userChoice === "scissors" && pcChoice === "paper") ||
-    (userChoice === "paper" && pcChoice === "rock") ||
-    (userChoice === "rock" && pcChoice === "scissors")
-  ) {
-    counterUser++;
-  } else if (
-    (userChoice === "paper" && pcChoice === "scissors") ||
-    (userChoice === "rock" && pcChoice === "paper") ||
-    (userChoice === "scissors" && pcChoice === "rock")
-  ) {
-    counterPc++;
+    resultTextElement.textContent = "EMPATE";
+    return;
   }
 
   console.log(userChoice, pcChoice);
